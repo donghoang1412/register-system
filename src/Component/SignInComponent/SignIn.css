@@ -1,0 +1,83 @@
+.grid {
+    justify-content: center;
+    height: 90vh;
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/31/92/school-seamless-background-on-a-blackboard-vector-8313192.jpg");
+}
+
+.grid_logo_login_form {
+    display: flex;
+    margin-top: 3%;
+}
+
+
+.login_component {
+    height: 380px;
+    width: 354px;
+    border: 1px solid #BDBDBD;
+    text-align: center;
+    margin-top: 8%;
+    color: rgba(var(--i1d,38,38,38),1);
+    background-color: white;
+    margin-bottom: 3%;
+}
+.login_logo {
+    margin-top: 32px;
+}
+.sign_in {
+    padding-top: 10%;
+}
+.sign_in_input {
+    width: 258px;
+    height: 30px;
+    margin: 3px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: 1px solid #BDBDBD;
+    background-color: #FAFAFA;
+    font-size: 12px;
+    font-weight: lighter;
+    
+}
+.login_button{
+    width: 270px;
+    height: 28px;
+    padding: 0px;
+    margin-top: 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid  rgba(var(--d69,0,149,246),.3) ;
+    background-color: rgba(var(--d69,0,149,246),.3);
+}
+.login_button:hover{
+    cursor: pointer;
+    color: #00376b;
+}
+
+.forgot_password {
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: small;
+    color: #00376b;
+}
+.signup_component {
+    height: 40px;
+    width: 354px;
+    padding-top: 16px;
+    padding-bottom: 6px;
+    text-align: center;
+    border: 1px solid #BDBDBD;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.signup_component span {
+    color: #0095f6;
+    font-weight: 500;
+}
+.wrong_credentials {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}

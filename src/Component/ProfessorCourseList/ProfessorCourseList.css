@@ -1,0 +1,7 @@
+.student_list {
+    text-decoration: underline;
+}
+.student_list:hover{
+    color: blue;
+    cursor: pointer;
+}

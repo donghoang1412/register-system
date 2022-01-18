@@ -1,0 +1,15 @@
+.enrollCourseHeader {
+    background-color: #fafafa;
+}
+.header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.header-box {
+    width: 60%;
+}
+.header-name {
+    margin: auto;
+    display: flex;
+}

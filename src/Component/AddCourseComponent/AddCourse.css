@@ -1,0 +1,63 @@
+.page {
+    justify-content: center;
+}
+.header {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.sign-out-button:hover {
+    cursor: pointer;
+    transform: translate(5px, -2px);
+}
+.add_course {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.add_field {
+    width: 60%;
+}
+.divider {
+    height: 10px;
+}
+.submit_button {
+    margin-top: 20px;
+}
+.list_course {
+    width: 80%;
+    margin: auto;
+}
+.tablecell {
+    font-size: 20px;
+    text-align: center;
+}
+.search_bar {
+    margin-bottom: 10px;
+    text-align: left;
+}
+.table {
+    margin-bottom: 50px;
+}
+.course_table {
+    max-height: 50px;
+    overflow-y: auto;
+}
+.edit:hover{
+    cursor: pointer;
+    color: blue;
+}
+.list-of-student {
+    width: 80%;
+    margin: auto;
+}
+.see-courses {
+    text-decoration: underline;
+}
+.see-courses:hover{
+    cursor: pointer;
+    color: blue;
+}
